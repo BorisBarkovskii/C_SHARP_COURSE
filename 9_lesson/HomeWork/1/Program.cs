@@ -18,5 +18,5 @@ void EvenNumbers(int M, int N)
         EvenNumbers(M + 2, N);
     }           
 }
-Console.WriteLine("Enter numbers: ");
+Console.WriteLine("Введите значения: ");
 EvenNumbers(int.Parse(Console.ReadLine()),int.Parse(Console.ReadLine()));
